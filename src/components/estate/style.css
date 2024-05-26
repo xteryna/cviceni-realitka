@@ -1,0 +1,31 @@
+.estate {
+    padding: 3rem;
+}
+.estate__title {
+    text-align: center;
+}
+
+.estate__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+
+}
+
+.estate__image {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(126, 126, 126);
+}
+
+.estate__contact{
+  background-color: rgb(231, 231, 231);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+
+.estate__contact p{
+    margin: 0.2em 0;
+
+}
